@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/bg.webp);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.log-form {
+    max-width: 500px !important;
+    transform: translateY(100px);
+}
+
+.log-form > h1, label {
+    color: #fff;
+}
+
+#phone-warning ,
+#pass-warning{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+
